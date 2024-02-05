@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@charset "UTF-8";
+:root {
+  --main-color: #3671cd;
+  --hover:#2563ed;
+  --pressed: #1d4ed8;
+
+}
+/* html {
+  width: 100%;
+} */
+
+/* ul {
+  list-style: none;
+}
+li {
+  padding-top: 8px;
+} */
+
+
+/* body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+} */
+/* li {
+  padding: 5px 10px;
+  width: 90%; 
+  font-size: 20px;
+  font-family:sans-serif ;
+  color: #fff;
+  border-radius:5px;
+  text-decoration: none;
+  justify-content: left;
+  display: inline-flex;
+  align-items: center;
+} */
+/* li:hover {
+  background-color: var(--hover);
+} */
+/* .pressed {
+  background-color: var(--pressed);
+} */
+/* .menu:hover {
+  background-color: var(--hover);
+  
+} */
+
+
+/* #title {
+  box-sizing: border-box;
+  margin-left: 20px;
+  padding: 20px 0;
+} */
+/* .sideBar {
+  box-sizing: border-box;
+  top: 0;
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  overflow: auto;
+  background: var(--main-color);
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+} */
+
+/* .icon {
+  position: relative; 
+  top: -2px;
+  left: 0px;
+  margin-right: 16px;
+} */
+/* .main__list {
+  padding-left: 10px;
+} */
+/* .lessonList li {
+  align-items: center;
+}
+.lessonList {
+  padding: 0 0 0 10px;
+  margin-left: 20px;
+  border-left: 1px solid #fff;
+} */
+
+.arrow {
+  position: relative;
+  padding: 0;
+}
+.arrow:after{
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -80px;
+  border: 6px solid transparent;
+  border-top: 7px solid #ffffff;  
+}
+
+.sub {
+  margin-top: auto;
+  margin-bottom: 40px;
+}
